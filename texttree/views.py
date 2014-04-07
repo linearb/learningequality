@@ -10,13 +10,13 @@ def toc(request):
     every_text = [(slug, Sam.index[slug]['title']) 
                     for slug in Sam.index if Sam.index[slug]['kind'] == 'Text']
     context = {'links': every_text }
-    return render(request, 'worldlit/toc.html', context)
+    return render(request, 'texttree/toc.html', context)
 
 # the top of the tree
 def tree(request):
     top_slug = Sam.top_slug
     context = {'links': [(top_slug, Sam.index[top_slug]['title'])] }
-    return render(request, 'worldlit/tree.html', context)
+    return render(request, 'texttree/tree.html', context)
 
 # get a piece of the data hierachy in JSON form
 def getinfo(request, slug):
