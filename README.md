@@ -1,0 +1,4 @@
+learningequality
+================
+
+demo django project
