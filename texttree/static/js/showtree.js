@@ -30,9 +30,9 @@
     // load model of top level topic
     // no need for addOne callback as its 
     // button is already displayed on page
-    var firsttopic = new app.Topic();
-    firsttopic.fetch();
-    app.TopicTree.add(firsttopic);
+    app.firsttopic = new app.Topic();
+    app.firsttopic.fetch();
+    app.TopicTree.add(app.firsttopic);
 
     //--------------
     // Views
