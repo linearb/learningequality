@@ -1,0 +1,102 @@
+{
+    "kind": "Topic",
+    "title": "Stories & Literature",
+    "slug": "stories-and-literature",
+    "children": [
+        {
+            "kind": "Topic",
+            "title": "Fairy Tales",
+            "slug": "fairy-tales",
+            "children": [
+                {
+                    "kind": "Text",
+                    "title": "Little Red Riding Hood",
+                    "slug": "little-red-riding-hood",
+                    "content": "Once upon a time there lived in a certain village a little country girl, the prettiest creature who was ever seen. Her mother was excessively fond of her; and her grandmother doted on her still more. This good woman had a little red riding hood made for her. It suited the girl so extremely well that everybody called her Little Red Riding Hood..."
+                },
+                {
+                    "kind": "Text",
+                    "title": "The Emperor’s New Clothes",
+                    "slug": "emperors-new-clothes",
+                    "content": "Many years ago there was an Emperor so exceedingly fond of new clothes that he spent all his money on being well dressed. He cared nothing about reviewing his soldiers, going to the theatre, or going for a ride in his carriage, except to show off his new clothes...."
+                },
+                {
+                    "kind": "Text",
+                    "title": "The Boy Who Cried Wolf",
+                    "slug": "boy-who-cried-wolf",
+                    "content": "There once was a shepherd boy who was bored as he sat on the hillside watching the village sheep. To amuse himself he took a great breath and sang out, \"Wolf! Wolf! The Wolf is chasing the sheep!\" The villagers came running up the hill to help the boy drive the wolf away. But when they arrived at the top of the hill, they found no wolf. The boy laughed at the sight of their angry faces...."
+                }
+            ]
+        },
+        {
+            "kind": "Topic",
+            "title": "Classic Literature",
+            "slug": "classic-literature",
+            "children": [
+                {
+                    "kind": "Topic",
+                    "title": "Chinese Literature",
+                    "slug": "chinese-literature",
+                    "children": [
+                        {
+                            "kind": "Text",
+                            "title": "Tao Te Ching",
+                            "slug": "tao-te-ching",
+                            "content": "The tao that can be told\nis not the eternal Tao\nThe name that can be named\nis not the eternal Name.\n\nThe unnamable is the eternally real.\nNaming is the origin\nof all particular things...."
+                        },
+                        {
+                            "kind": "Text",
+                            "title": "The Book of Five Rings",
+                            "slug": "five-rings",
+                            "content": "It is difficult to realize the true Way just through sword-fencing. Know the smallest things and the biggest things, the shallowest things and the deepest things..."
+                        }
+                    ]
+                },
+                {
+                    "kind": "Topic",
+                    "title": "European Literature",
+                    "slug": "european-literature",
+                    "children": [
+                        {
+                            "kind": "Text",
+                            "title": "Don Quixote",
+                            "slug": "don-quixote",
+                            "content": "In a village of La Mancha, the name of which I have no desire to call to mind, there lived not long since one of those gentlemen that keep a lance in the lance-rack, an old buckler, a lean hack, and a greyhound for coursing..."
+                        },
+                        {
+                            "kind": "Text",
+                            "title": "Divina Commedia",
+                            "slug": "divina-commedia",
+                            "content": "Halfway through the journey we are living\nI found myself deep in a darkened forest,\nFor I had lost all trace of the straight path..."
+                        }
+                    ]
+                },
+                {
+                    "kind": "Topic",
+                    "title": "Indian Literature",
+                    "slug": "indian-literature",
+                    "children": [
+                        {
+                            "kind": "Text",
+                            "title": "Shulba Sutras",
+                            "slug": "shulba-sutras",
+                            "content": "Now, therefore, we will teach the Dharmas which form part of the duty of daily life, as they have been decided by the agreement [of those who know the law]..."
+                        },
+                        {
+                            "kind": "Text",
+                            "title": "Recognition of Shakuntala",
+                            "slug": "shakuntala",
+                            "content": "When I cast my eye on the deer\nThat flees in fear, and when I look at you \nWith your bow and arrow, I seem to see none\nBut the great Pinaki in human form\nDescending on earth to chase the deer..."
+                        },
+                        {
+                            "kind": "Text",
+                            "title": "Mahabharata",
+                            "slug": "mahabharata",
+                            "content": "On their way they saw the Ocean, that receptacle of waters, vast and deep, rolling and tremendously roaring, full of fishes large enough to swallow the whale, and abounding with huge makaras and creatures of various forms by thousands, and rendered inaccessible by the presence of other terrible, monster-shaped, dark, and fierce aquatic animals, abounding with tortoises and crocodiles, the mine of all kinds of gems, the home of Varuna (the water-God), the excellent and beautiful residence of the Nagas, the lord of all rivers, the abode of the subterranean fire, the friend (or asylum) of the Asuras, the terror of all creatures, the grand reservoir of water, and ever immutable. .."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
