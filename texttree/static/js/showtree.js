@@ -107,12 +107,12 @@
 
         if (newbutton.attributes.kind == 'Text') {
             $(this.listId(newbutton.attributes.parent)).
-                    append(view.render().el).append(view.render().el);
+                    append(view.render().el);
         } else {
             // only topic nodes have a view list
             var viewlist = new app.TopicListView({model: newbutton});
             $(this.listId(newbutton.attributes.parent)).
-                    append(view.render().el).append(view.render().el).
+                    append(view.render().el).
                     append(viewlist.render().el);
         }
       },
