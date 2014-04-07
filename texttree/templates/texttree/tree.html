@@ -1,0 +1,19 @@
+
+{% extends "worldlit/base.html" %}
+
+{% block title %}Tree of links{% endblock %}
+
+{% block content %}
+
+{% if links %}
+<ul>
+    {% for slug, title in links %}
+            <li> <button id="{{ slug }}" class="defaultclick"
+                type="button">{{ title }}</button></li>
+            <ul id="{{ slug|add:"_list" }}"></ul>
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% endblock %}
+
