@@ -1,8 +1,11 @@
 import modeldata
 
+from django.conf import settings
+
 class SampleData:
 
-    index, top_slug = modeldata.get_data('sample_topictree.json')
+    #index, top_slug = modeldata.get_data('sample_topictree.json')
+    index, top_slug = modeldata.get_data(settings.MODELDATA)
 
     @classmethod
     def get_hunk(cls, slug):

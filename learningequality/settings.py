@@ -63,6 +63,9 @@ WSGI_APPLICATION = 'learningequality.wsgi.application'
 #    }
 #}
 
+# Location of data for model
+MODELDATA = 'sample_topictree.json'
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
@@ -81,5 +84,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
-
 
