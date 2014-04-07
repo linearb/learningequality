@@ -18,6 +18,7 @@ for an (unordered) list of texts
 
 
 - sample data is located in sample_topictree.json
+
 to use different data, change MODELDATA in settings.py
 
 
